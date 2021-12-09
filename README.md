@@ -19,7 +19,7 @@ tbd
 3.3 Dropping duplicates
 3.4 Removing Stop Words
 3.5 Tokenization and lemmatization
-3.4 Removing Punctuations, Numbers and Special characters
+3.6 Removing Punctuations, Numbers and Special characters
 4. Feature Extraction
 5. . Model Building
 
