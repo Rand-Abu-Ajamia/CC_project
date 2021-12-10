@@ -23,14 +23,10 @@ tbd
 4. Feature Extraction
 5. . Model Building
 
-**Gantt chart:** https://prod.teamgantt.com/gantt/schedule/?ids=2902801#&ids=2902801&user=&custom=&company=&hide_completed=false&date_filter=&color_filter=
-
 **Data** 
 tbd
-
 **Data description**
 tbd
-
 **References**
 1. https://towardsdatascience.com/selenium-tweepy-to-scrap-tweets-from-tweeter-and-analysing-sentiments-1804db3478ac
-2. 
+2. https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
