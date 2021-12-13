@@ -20,9 +20,10 @@ snscrape, tqdm, json, nltk, vader, numpy, pandas
 1. Scraping Tweets
 3. Identifying Sentiments using VADAR 
 4. Text Pre-processing
-5.1 removing "@handler"
-6.2 Removing links (http | https)
-7.3 Dropping duplicates
+- Dropping duplicates
+- Dropping null values
+- Removing links (http | https)
+7.3 
 8.4 Removing Stop Words
 9.5 Tokenization and lemmatization
 10.6 Removing Punctuations, Numbers and Special characters
