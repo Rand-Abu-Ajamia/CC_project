@@ -13,27 +13,28 @@ This project is set out to understand -and visualise- global views of climate ch
 
 **Objective**: the aim of this project to leverage twitter data to understand public views for climate change in reference to COVID-19 pandemic.
 
-**Tools used:**
-tbd
+**Tools and libraries used:**
+snscrape, tqdm, json, nltk, vader, numpy, pandas
 
 **Project steps** 
 1. Scraping Tweets
-2. Identifying Sentiments
-3. Text Pre-processing
-3.1 removing "@handler"
-3.2 Removing links (http | https)
-3.3 Dropping duplicates
-3.4 Removing Stop Words
-3.5 Tokenization and lemmatization
-3.6 Removing Punctuations, Numbers and Special characters
-4. Feature Extraction
-5. . Model Building
+3. Identifying Sentiments using VADAR 
+4. Text Pre-processing
+5.1 removing "@handler"
+6.2 Removing links (http | https)
+7.3 Dropping duplicates
+8.4 Removing Stop Words
+9.5 Tokenization and lemmatization
+10.6 Removing Punctuations, Numbers and Special characters
+11. Feature Extraction
+12. . Model Building
 
 **Data** 
 tbd
 **Data description**
 tbd
 **References**
-1. https://www.nationalgeographic.com/environment/article/this-year-extreme-weather-brought-home-reality-of-climate-change
-2. https://towardsdatascience.com/selenium-tweepy-to-scrap-tweets-from-tweeter-and-analysing-sentiments-1804db3478ac
-3. https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
+1. Climate change & weather extremes: https://www.nationalgeographic.com/environment/article/this-year-extreme-weather-brought-home-reality-of-climate-change
+2. Scraping tweets and analyzing Social Sentiments: https://towardsdatascience.com/selenium-tweepy-to-scrap-tweets-from-tweeter-and-analysing-sentiments-1804db3478ac
+3. How to Scrape Tweets With snscrape: https://betterprogramming.pub/how-to-scrape-tweets-with-snscrape-90124ed006af
+4. VADER-Sentiment-Analysis: https://github.com/cjhutto/vaderSentiment
