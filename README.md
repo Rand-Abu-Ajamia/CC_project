@@ -18,13 +18,13 @@ snscrape, tqdm, json, nltk, vader, numpy, pandas
 
 ## Project steps
 1. Scraping Tweets using snscrape
-3. Identifying Sentiments using VADAR 
 4. Text Pre-processing
+- Editing data types
 - Dropping duplicates
 - Dropping null values
-- Removing links and URLs
+- Removing links & Mentions (URLs & @s)
 - Removing Stopwords
-
+3. Identifying Sentiments using VADAR 
 9.5 Tokenization and lemmatization
 10.6 Removing Punctuations, Numbers and Special characters
 11. Feature Extraction
@@ -32,13 +32,15 @@ snscrape, tqdm, json, nltk, vader, numpy, pandas
 
 ## Data
 The dataset was scraped from twitter twice:
-- Using the search for the hashtag #climatechange, the raw data consisted of XX rows and XX columns
-- Using the hashtag #covid, the raw data consisted of XX rows and XX columns
+- Using the search for the hashtag #climatechange, the raw data consisted of 874,413 rows i.e. tweets and 7 columns
+- Using the hashtag #covid, the raw data consisted of XX rows and 7 columns
 
 The columns in both dataset includes the following features: date, tweet ID, text, number of replies, number of retweets, number of likes and the location. 
 
 **Data description**
 tbd
+
+**Ganttchart :** https://prod.teamgantt.com/gantt/schedule/?ids=2902801#&ids=2902801&user=&custom=&company=&hide_completed=false&date_filter=&color_filter=
 
 ## References
 1. Climate change & weather extremes: https://www.nationalgeographic.com/environment/article/this-year-extreme-weather-brought-home-reality-of-climate-change
